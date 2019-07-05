@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <form action="" method="POST">
+    <fieldset>
+      <legend>Datos personales</legend>
+      <div class="form__element firstname">
+        <label for="firstname">Nombre </label>
+        <input type="text" id="firstname" name="firstname" placeholder="Lola">
+      </div>
+      <div class="form__element lastname">
+        <label for="lastname">Apellido </label>
+        <input type="text" id="lastname" name="lastname" placeholder="Pérez">
+      </div>
+      <div class="form__element email">
+        <label for="email">email </label>
+        <input type="email" id="email" name="mail" placeholder="lola@mail.com">
+      </div>
+      <div class="form__element telephone">
+        <label for="telephone">Teléfono </label>
+        <input type="tel" id="telephone" name="telephone" placeholder="678273623">
+      </div>
+      <div class="form__element dni">
+        <label for="dni">DNI </label>
+        <input type="text" id="dni" name="dni" placeholder="58373874-e">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Dirección</legend>
+      <div class="form__element street">
+        <label for="street">Calle </label>
+        <input type="text" id="street" name="street" placeholder="Calle Goya...">
+      </div>
+      <div class="form__element city">
+        <label for="city">Ciudad </label>
+        <input type="text" id="city" name="city" placeholder="Madrid">
+      </div>
+      <div class="form__element province">
+        <label for="province">Provincia </label>
+        <input type="text" id="province" name="province" placeholder="Madrid">
+      </div>
+      <div class="form__element country">
+        <label for="country">País </label>
+        <input type="text" id="country" name="country" placeholder="España">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Registro</legend>
+      <div class="form__element password">
+        <label for="password">Contraseña </label>
+        <input type="password" id="password" name="password" placeholder="***">
+      </div>
+      <div class="form__element confirm-password">
+        <label for="confirm-password">Confirmar Contraseña</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="***">
+      </div>
+    </fieldset>
+    <div class="form__element sent">
+      <input type="submit" value="Enviar info">
+    </div>
+  </form>
+</body>
+
+</html>
