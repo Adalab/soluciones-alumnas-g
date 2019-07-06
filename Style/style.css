@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+}
+.page {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #999999;
+  position: relative;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/*HEADER CSS*/
+
+.header__page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  color: #fff;
+  background-color: #999999;
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+.header__page .container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__title {
+  width: 50vw;
+  text-align: left;
+  margin: 30px 0;
+}
+.page__nav {
+  width: 50vw;
+}
+.nav__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.menu__item {
+  margin-right: 20px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* MAIN CSS */
+
+.anchor {
+  height: 120px;
+  width: 100vw;
+  position: relative;
+  top: 0px;
+  left: 0;
+}
+.main__page {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+.page__article {
+  margin: auto;
+  text-align: left;
+  padding-bottom: 100px;
+}
+
+.article__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.article__title {
+  margin: 10px 0;
+}
+
+/* FOOTER CSS */
+.page__footer {
+  border-top: 1px solid #999999;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+.page__footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer__items {
+  margin-right: 20px;
+}
+.footer__items:last-child {
+  margin-right: 0;
+}
+.footer__link {
+    text-decoration: none;
+    color: #999999;
+  }
