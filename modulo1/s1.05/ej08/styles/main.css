@@ -1,0 +1,27 @@
+.link__container {
+    width: 100%;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    padding-bottom: 22px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.link {
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+}
+
+.icon {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    height: 15px;
+    float: right;
+    text-align: center;
+    padding: 2px;
+}
