@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-padre {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.izquierda-del-container {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.zona-cuadrado-gris {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  align-self: flex-start;
+  background-color: grey;
+  margin-right: 10px;
+}
+
+.zona-texto {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+
+.texto-fisioterapia {
+  text-align: left;
+}
+
+.titulo {
+  font-size: 15px;
+}
+.subtitulo {
+  font-size: 15px;
+  color: gray;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.cita {
+  width: 110px;
+  height: 30px;
+  border-radius: 3px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.presupuesto {
+  width: 110px;
+  height: 30px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.derecha-del-container {
+  width: 200px;
+  height: 80px;
+}
+
+.arriba {
+  display: flex;
+  flex-direction: row;
+}
+
+.texto-feedback {
+  width: 80%;
+  justify-content: right;
+}
+
+.cuadrado-puntuación {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.puntuacion {
+  vertical-align: middle;
+}
+.valoraciones {
+  text-align: right;
+}
+
+.vercomentario {
+  color: grey;
+}
+.abajo {
+  width: 190px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.estrellita {
+  width: 30px;
+  height: 30px;
+}
