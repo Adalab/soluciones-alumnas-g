@@ -10,6 +10,7 @@
   height: 30vh;
   justify-content: space-between;
   align-items: center;
+  max-width: 840px;
 }
 
 .izquierda-del-container {
@@ -23,7 +24,8 @@
   height: 70px;
   border-radius: 5px;
   align-self: flex-start;
-  background-color: grey;
+  background-image: url(https://www.myflexhealth.com/wp-content/uploads/2018/07/house-call-physiotherapy-my-flex-health-img.jpg);
+  background-size: cover;
   margin-right: 10px;
 }
 
