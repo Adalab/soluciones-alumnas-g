@@ -1,0 +1,37 @@
+
+
+.header {
+    height: 20vh;
+    background-color:pink;
+}
+
+.col-4,
+.col-8,
+.col-12{
+    padding:0;
+    margin:0;
+}
+
+.menu {
+    height: 60vh;
+    background-color: blue;
+}
+
+.row__blue{
+    background-color: aqua;
+}
+
+.content{
+    height: 60vh;
+    background-color:yellow;
+}
+
+.footer{
+    height:20vh;
+    background-color: green;
+}
+
+.row{
+    background-color:tomato;
+}
+
