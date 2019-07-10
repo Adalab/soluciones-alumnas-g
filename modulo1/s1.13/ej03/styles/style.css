@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    font-size: 20px;
+    color: cyan;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    transform: translateY(900%);
+    text-align: center;
+    opacity: 0;
+    transition: transform ease 4s;
+}
+
+.container:hover .popup {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/*usar +, nada o ~ para indicar si el siguiente elemento, el hijo o el siguiente elemento del indicado
