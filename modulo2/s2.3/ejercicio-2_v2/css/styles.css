@@ -1,0 +1,22 @@
+.title , .text , .link{ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.console-text{
+  font-size: 30px;
+  display: none;
+}
+
+.link{
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.adalab__login-title{
+  display: block;
+  border-top: 2px solid grey;
+  font-size: 20px;
+  line-height: 2em;
+
+}
