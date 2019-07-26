@@ -1,0 +1,32 @@
+.cesta{
+    text-align:center;
+}
+.btn{
+    font-size: 40px;
+    color:blue;
+    background-color:pink;
+    border-radius:15px;
+    border:2px solid yellow;
+    padding:15px;
+    width:300px;
+}
+
+.calculator{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.pear-number{
+    height:100px;    
+    font-size:20px;
+    background-color:peachpuff;
+    text-align:center;
+}
+.alert{
+    color:red;
+    height:100px;    
+    font-size:20px;
+    background-color:peachpuff;
+    text-align:center;
+}
