@@ -1,0 +1,88 @@
+
+.fruits-background{
+	min-height: 100vh; 
+	background-image: url(frutas.jpg); 
+	padding-bottom: 50px; 	
+}
+
+.fruits-title{
+	background-color: blanchedalmond; 
+	height: 100px;
+	padding-top: 2px;
+	margin-bottom: 80px; 
+	font-family: fantasy;
+	font-size: 35px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center;  
+}
+
+.fruits-text{
+	background-color: blanchedalmond; 
+	height: 50px;
+	padding-top: 2px;
+	margin-bottom: 80px; 
+	
+}
+
+.fruits{
+	cursor: pointer;
+	list-style: none;
+	display: flex; 
+	justify-content: space-between; 
+	font-family: fantasy; 
+	font-size: 20px; 
+	text-transform: capitalize; 
+	margin: 0; 
+	padding-top: 10px; 	
+}
+
+.circle{
+	height: 500px;
+	width: 500px; 
+	border-radius: 50%; 
+	background-color: peachpuff; 
+	margin: auto; 
+	position: relative;
+}
+
+.fas{
+	color: rgb(126, 110, 75); 
+}
+
+.lemon {
+	color: rgb(207, 207, 40); 
+}
+
+.apple {
+	color: green; 
+}
+
+.carrot {
+	color:orange; 
+}
+
+.pepper {
+	color: maroon;  
+}
+
+.fa-lemon{ 
+	font-size: 180px; 
+	transform: translateY(10px) translateX(5px);
+}
+
+.fa-apple-alt{
+	font-size: 200px; 
+	transform: translateY(320px) translateX(140px);
+}
+
+.fa-carrot{
+	font-size: 220px; 
+	transform: translateY(100px);
+}
+
+.fa-pepper-hot{
+	font-size: 200px; 
+	transform: translateX(100px) translateY(-200px);
+}
+
