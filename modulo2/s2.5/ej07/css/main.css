@@ -1,8 +1,7 @@
 
 .fruits-background{
 	min-height: 100vh; 
-	background-image: url(frutas.jpg); 
-	padding-bottom: 50px; 	
+	background-image: url(./images/frutas.jpg); 	
 }
 
 .fruits-title{
@@ -34,7 +33,8 @@
 	font-size: 20px; 
 	text-transform: capitalize; 
 	margin: 0; 
-	padding-top: 10px; 	
+	padding-top: 10px; 
+	padding-right: 35px; 	
 }
 
 .circle{
