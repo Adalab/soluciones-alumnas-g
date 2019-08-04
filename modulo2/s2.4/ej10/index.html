@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Calculadora de modelo de caja CSS</title>
+</head>
+
+<body class="app">
+    <div class="container">
+        <h1 class="title">📦 <i>modelo de caja CSS</i> 📦</h1>
+        <form action="" class="form">
+            <div class="box-type-container">
+                <div>
+                    <label for="border-box">
+                        <input id="border-box" type="radio" value="border-box" name="box-type" />
+                        Border-box
+                    </label>
+                </div>
+
+                <div>
+                    <label for="content-box">
+                        <input id="content-box" type="radio" value="content-box" name="box-type" />
+                        Content-box
+                    </label>
+                </div>
+            </div>
+            <div class="item">
+                <label for="width" class="label">width en píxeles</label>
+                <input id="width" type="text" class="width" required>
+            </div>
+            <div class="item">
+                <label for="padding" class="label">padding en píxeles</label>
+                <input id="padding" type="text" class="padding" required>
+            </div>
+            <div class="item">
+                <label for="border" class="label">border en píxeles</label>
+                <input type="text" class="border" required>
+            </div>
+            <submit class="btn">CALCULA</submit>
+        </form>
+
+        <p class="result"></p>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

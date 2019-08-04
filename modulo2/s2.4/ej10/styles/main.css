@@ -1,0 +1,51 @@
+.app{
+    height:100vh;
+    font-family:arial;
+    background-color:yellow;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    text-align:center;
+    max-width:550px;
+}
+
+.form{
+    border:2px solid tomato;
+    border-radius:10px;
+    padding:50px 20px;
+    margin:20px;
+}
+
+.item {
+    margin:30px 0;
+    display:flex;
+    flex-direction:column;    
+}
+.label{
+    margin:10px;
+}
+
+.box-type-container{
+    display:flex;
+    justify-content:space-around;
+    font-size:25px;
+}
+
+.result{
+    color:blue;
+}
+
+.btn{
+    background-color:pink;
+    border: 2px solid blue;
+    border-radius:6px;
+    padding:10px;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color:red;
+}
