@@ -56,6 +56,9 @@ class App extends React.Component {
                 return item%2 === 0;
               }
             })
+            .filter(item => {
+              return item > this.state.filternumber
+            })
             .map(number => {
               return (
                 <li key={number}>{number}</li>
