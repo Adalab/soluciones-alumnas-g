@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+}
+
+
+.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 60vw;
+}
+
+.item-list{
+  list-style: none;
+}
+
+.item-list li{
+  margin-top: 5px;
+}
